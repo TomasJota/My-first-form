@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">My form</h1 >
+    <p id="description">Welcome to  my first form in html.</p>
+
+
+    <form id="survey-form">
+      <fieldset>
+      <label for="name" id="name-label">Your first name: <input id="name" name="name" required type="text" placeholder="User"></label>
+
+      <label for="email" id="email-label">Email: <input id="email" name="email" type="email" placeholder="user@example.com" required></label>
+
+    <label for="number" id="number-label">  Years old: <input type="number" id="number" name="number" min="13" max="120" placeholder="21"></label>
+    </fieldset>
+
+    <fieldset>
+    <label for="dropdown"> What is your professional area?: </label>  
+    <select id="dropdown" name="dropdown">
+      <option value="">select one</option>
+      <option value="1">Ingenery</option>
+      <option value="2">Arquitecture</option>
+      <option value="3">Medicine</option>
+      <option value="4">Degree</option>
+      <option value="5">Education</option>
+    </select>
+    
+  <label>  do you exercise?: </label>
+    <input type="radio" name="graduation" value="si" checked>Si
+    <input type="radio" name="graduation" value="no">No
+
+  <label id="skills"> Skills: 
+  <input type="checkbox" value="1"> Social
+  <input type="checkbox" value="2"> Artist
+  <input type="checkbox" value="3"> Academic
+  <input type="checkbox" value="4"> atletic
+  </label>
+  </fieldset>
+
+  <fieldset>
+  <label for="comment">There is a date for you that want to comment?</label>
+  <textarea id="comment" name="comment"></textarea>
+  </fieldset>
+  <input Type="submit" id="submit"> 
+
+    </form>
+  </body>
+
+</html>

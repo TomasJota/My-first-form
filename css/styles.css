@@ -1,0 +1,66 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background: whitesmoke;
+	height: 100vh;
+}
+
+#title{
+	margin: 20px;
+	text-align: center;
+	color: darkblue;
+	font-family: Arial;
+}
+
+p{
+	text-align: center;
+	font-family: Times;
+}
+
+fieldset{
+	margin: 10px auto;
+	width: 60%;
+	border: none;
+	border-bottom: 2px solid black;
+	margin-bottom: 30px;
+}
+
+input{
+	display: inline;
+	margin: 5px 10px;
+	display: inline-block;
+}
+
+label{
+	display: block;
+	margin: 5px 10x;
+	padding-bottom: 3px;
+	font-family: 'Times New Roman';
+	color: black;
+}
+
+select{
+	margin: 5px;
+}
+
+ input[type="radio"]{
+ 	display: inline;
+ 	margin: 5px;
+ }
+
+#name{
+	width: 20%;
+}
+
+#email{
+	width: 30%;
+}
+
+#age{
+	width: 10%;
+}
+
+#submit{
+	display: block;
+	margin: 0px auto;
+}
